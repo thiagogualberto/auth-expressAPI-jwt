@@ -1,12 +1,12 @@
 {
   "name": "auth-expressAPI-jwt",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/thiagogualberto/auth-expressAPI-jwt.git",
   "author": "Thiago Gualberto <thiago.gou@gmail.com>",
   "license": "MIT",
+  "main": "./src/api/server.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon ."
   },
   "dependencies": {
     "express": "^4.17.2"
